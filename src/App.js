@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://book-recommendation-app-8.onrender.com';
+
 
 function App() {
   const [users, setUsers] = useState([]);
